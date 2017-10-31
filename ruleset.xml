@@ -27,6 +27,7 @@
 <ruleset name="Prestashop">
     <config name="installed_paths" value="libs/wimg/php-compatibility/" />
     <description>Prestashop coding standard.</description>
+    <rule ref="PHPCompatibility"/>
     <rule ref="PSR2">
         <exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
         <exclude name="PSR1.Files.SideEffects.FoundWithSymbols">
