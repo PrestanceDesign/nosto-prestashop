@@ -36,7 +36,7 @@ if ((basename(__FILE__) === 'nostotagging.php')) {
     define('NOSTO_DIR', dirname(__FILE__));
     define('NOSTO_VERSION', NostoTagging::PLUGIN_VERSION);
     /** @noinspection PhpIncludeInspection */
-    require_once("bootstrap.php");
+    require_once(dirname(__FILE__) . "/bootstrap.php");
 }
 
 /**
